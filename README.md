@@ -1,1 +1,2 @@
-# Personal Website
+# My Personal Website
+Vanilla HTML, CSS, Javascript
