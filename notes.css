@@ -30,9 +30,9 @@
 .term {
     display: flex;
     flex-direction: column;
-	width: 35em;
+	width: fit-content;
 	
-	padding: 1em;
+	padding: 1em 4em 1em 4em;
 	margin: 0.5em auto;
     transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in;
     background-color: #EEEEEE;
@@ -53,7 +53,6 @@
 	margin-bottom: 0.2em;
 }
 @media screen and (max-width: 650px) {
-	h2 { font-size: 2em; }
 
-	.term { width: 100%; }
+	.term { padding: 0; }
 }
